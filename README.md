@@ -1,13 +1,13 @@
-# Master Thesis - Platform Orchestrator
+# CEPHAS Platform Orchestrator
 
-This repository contains the code related to the Orchestrator for the edge platform developed during my master thesis.
+This repository contains the code related to the Orchestrator for the edge platform originally developed during the master thesis in Computer Engineering of Lorenzo Giorgi @University of Pisa.
 This software is responsible for creating all software infrastructure for the edge platform at startup, receiving login/logout request from client and migration request from Mobility Management.
 All those requests triggers modification in resource allocated on Edge nodes, both in terms of Docker container executing client related application and Envoy rules installed on Edge Envoy proxies.
 
 **Note:** TLS/mTLS certificates and private keys not included for security reasons. See Security/TLS section.
 
 <!-- TOC -->
-* [Master Thesis - Platform Orchestrator](#master-thesis---platform-orchestrator)
+* [CEPHAS Platform Orchestrator](#master-thesis---platform-orchestrator)
   * [Run inside IDE](#run-inside-ide)
   * [Run without ide](#run-without-ide)
   * [Configuration file](#configuration-file)
